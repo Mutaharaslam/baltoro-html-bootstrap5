@@ -1,0 +1,17 @@
+.contact {
+    ul {
+        padding: 20px 0 0;
+        margin: 0 0 20px;
+        li {
+            margin: 0 0 30px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            color: rgba($dark, 0.7);
+            font-weight: 600;
+            svg {
+                margin-right: 15px;
+            }
+        }
+    }
+}

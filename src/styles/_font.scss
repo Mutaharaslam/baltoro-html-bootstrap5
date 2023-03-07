@@ -1,0 +1,514 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Black.woff2') format('woff2'), url('../fonts/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-BlackItalic.woff2') format('woff2'), url('../fonts/Lato-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.woff2') format('woff2'), url('../fonts/Lato-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Light.woff2') format('woff2'), url('../fonts/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Italic.woff2') format('woff2'), url('../fonts/Lato-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-LightItalic.woff2') format('woff2'), url('../fonts/Lato-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Medium.woff2') format('woff2'), url('../fonts/Lato-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-BoldItalic.woff2') format('woff2'), url('../fonts/Lato-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'), url('../fonts/Lato-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Semibold.woff2') format('woff2'), url('../fonts/Lato-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('../fonts/Lato-Hairline.woff2') format('woff2'), url('../fonts/Lato-Hairline.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('../fonts/Lato-HairlineItalic.woff2') format('woff2'), url('../fonts/Lato-HairlineItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+// iconomons
+// 
+$icomoon-font-family: "br" !default;
+$icomoon-font-path: "../fonts/icomons/" !default;
+// 
+$br-icon-social-skype: "\e931";
+$br-icon-chevron-right: "\e90c";
+$br-icon-chevron-left: "\e91b";
+$br-icon-chevron-down: "\e91f";
+$br-icon-chevron-up: "\e922";
+$br-icon-linkedin: "\e928";
+$br-icon-steam: "\e92b";
+$br-icon-youtube: "\e92c";
+$br-icon-twitter: "\e92d";
+$br-icon-whatsapp: "\e92e";
+$br-icon-instagram: "\e92f";
+$br-icon-share: "\e930";
+$br-icon-facebook: "\e909";
+$br-icon-brand: "\e909";
+$br-icon-social: "\e909";
+$br-icon-close: "\e90b";
+$br-icon-chevron-left: "\e91b";
+$br-icon-chevron-down: "\e91f";
+$br-icon-chevron-up: "\e922";
+$br-icon-phone-ring: "\e906";
+$br-icon-back: "\e900";
+$br-icon-battery: "\e901";
+$br-icon-blue-arrow: "\e902";
+$br-icon-boat: "\e90d";
+$br-icon-booking-cancel: "\e903";
+$br-icon-booking-success: "\e904";
+$br-icon-calendar-blue: "\e905";
+$br-icon-canal-cruise: "\e90e";
+$br-icon-canoes: "\e90f";
+$br-icon-check: "\e907";
+$br-icon-Competitive-Pricing: "\e910";
+$br-icon-cross: "\e911";
+$br-icon-dropdown: "\e908";
+$br-icon-electric-propultion: "\e912";
+$br-icon-eye: "\e913";
+$br-icon-fast-booking: "\e914";
+$br-icon-footer-arrow: "\e915";
+$br-icon-gamestours: "\e916";
+$br-icon-Guided-Tours: "\e917";
+$br-icon-home-icon: "\e918";
+$br-icon-info: "\e919";
+$br-icon-list-view-active: "\e91a";
+$br-icon-mail: "\e91c";
+$br-icon-my-booking-active: "\e91d";
+$br-icon-my-payment-active: "\e90a";
+$br-icon-my-profile-active: "\e91e";
+$br-icon-person: "\e920";
+$br-icon-pin: "\e921";
+$br-icon-play: "\e923";
+$br-icon-solexan: "\e924";
+$br-icon-steering-wheel: "\e925";
+$br-icon-tel: "\e926";
+$br-icon-thumbnail-view-active: "\e927";
+$br-icon-tours: "\e929";
+$br-icon-Worldwide-Coverage: "\e92a";
+// 
+// 
+@font-face {
+    font-family: '#{$icomoon-font-family}';
+    src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?3gn3lp');
+    src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?3gn3lp#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?3gn3lp') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?3gn3lp') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?3gn3lp##{$icomoon-font-family}') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="br-icon"],
+[class*=" br-icon"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: '#{$icomoon-font-family}' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.br-icon-social-skype {
+    &:before {
+        content: $br-icon-social-skype;
+    }
+}
+
+.br-icon-chevron-right {
+    &:before {
+        content: $br-icon-chevron-right;
+    }
+}
+
+.br-icon-chevron-left {
+    &:before {
+        content: $br-icon-chevron-left;
+    }
+}
+
+.br-icon-chevron-down {
+    &:before {
+        content: $br-icon-chevron-down;
+    }
+}
+
+.br-icon-chevron-up {
+    &:before {
+        content: $br-icon-chevron-up;
+    }
+}
+
+.br-icon-linkedin {
+    &:before {
+        content: $br-icon-linkedin;
+    }
+}
+
+.br-icon-steam {
+    &:before {
+        content: $br-icon-steam;
+    }
+}
+
+.br-icon-youtube {
+    &:before {
+        content: $br-icon-youtube;
+    }
+}
+
+.br-icon-twitter {
+    &:before {
+        content: $br-icon-twitter;
+    }
+}
+
+.br-icon-whatsapp {
+    &:before {
+        content: $br-icon-whatsapp;
+    }
+}
+
+.br-icon-instagram {
+    &:before {
+        content: $br-icon-instagram;
+    }
+}
+
+.br-icon-share {
+    &:before {
+        content: $br-icon-share;
+    }
+}
+
+.br-icon-facebook {
+    &:before {
+        content: $br-icon-facebook;
+    }
+}
+
+.br-icon-brand {
+    &:before {
+        content: $br-icon-brand;
+    }
+}
+
+.br-icon-social {
+    &:before {
+        content: $br-icon-social;
+    }
+}
+
+.br-icon-close {
+    &:before {
+        content: $br-icon-close;
+    }
+}
+
+.br-icon-chevron-left {
+    &:before {
+        content: $br-icon-chevron-left;
+    }
+}
+
+.br-icon-chevron-down {
+    &:before {
+        content: $br-icon-chevron-down;
+    }
+}
+
+.br-icon-chevron-up {
+    &:before {
+        content: $br-icon-chevron-up;
+    }
+}
+
+.br-icon-phone-ring {
+    &:before {
+        content: $br-icon-phone-ring;
+    }
+}
+
+.br-icon-back {
+    &:before {
+        content: $br-icon-back;
+    }
+}
+
+.br-icon-battery {
+    &:before {
+        content: $br-icon-battery;
+    }
+}
+
+.br-icon-blue-arrow {
+    &:before {
+        content: $br-icon-blue-arrow;
+    }
+}
+
+.br-icon-boat {
+    &:before {
+        content: $br-icon-boat;
+    }
+}
+
+.br-icon-booking-cancel {
+    &:before {
+        content: $br-icon-booking-cancel;
+    }
+}
+
+.br-icon-booking-success {
+    &:before {
+        content: $br-icon-booking-success;
+    }
+}
+
+.br-icon-calendar-blue {
+    &:before {
+        content: $br-icon-calendar-blue;
+    }
+}
+
+.br-icon-canal-cruise {
+    &:before {
+        content: $br-icon-canal-cruise;
+    }
+}
+
+.br-icon-canoes {
+    &:before {
+        content: $br-icon-canoes;
+    }
+}
+
+.br-icon-check {
+    &:before {
+        content: $br-icon-check;
+    }
+}
+
+.br-icon-Competitive-Pricing {
+    &:before {
+        content: $br-icon-Competitive-Pricing;
+    }
+}
+
+.br-icon-cross {
+    &:before {
+        content: $br-icon-cross;
+    }
+}
+
+.br-icon-dropdown {
+    &:before {
+        content: $br-icon-dropdown;
+    }
+}
+
+.br-icon-electric-propultion {
+    &:before {
+        content: $br-icon-electric-propultion;
+    }
+}
+
+.br-icon-eye {
+    &:before {
+        content: $br-icon-eye;
+    }
+}
+
+.br-icon-fast-booking {
+    &:before {
+        content: $br-icon-fast-booking;
+    }
+}
+
+.br-icon-footer-arrow {
+    &:before {
+        content: $br-icon-footer-arrow;
+    }
+}
+
+.br-icon-gamestours {
+    &:before {
+        content: $br-icon-gamestours;
+    }
+}
+
+.br-icon-Guided-Tours {
+    &:before {
+        content: $br-icon-Guided-Tours;
+    }
+}
+
+.br-icon-home-icon {
+    &:before {
+        content: $br-icon-home-icon;
+    }
+}
+
+.br-icon-info {
+    &:before {
+        content: $br-icon-info;
+    }
+}
+
+.br-icon-list-view-active {
+    &:before {
+        content: $br-icon-list-view-active;
+    }
+}
+
+.br-icon-mail {
+    &:before {
+        content: $br-icon-mail;
+    }
+}
+
+.br-icon-my-booking-active {
+    &:before {
+        content: $br-icon-my-booking-active;
+    }
+}
+
+.br-icon-my-payment-active {
+    &:before {
+        content: $br-icon-my-payment-active;
+    }
+}
+
+.br-icon-my-profile-active {
+    &:before {
+        content: $br-icon-my-profile-active;
+    }
+}
+
+.br-icon-person {
+    &:before {
+        content: $br-icon-person;
+    }
+}
+
+.br-icon-pin {
+    &:before {
+        content: $br-icon-pin;
+    }
+}
+
+.br-icon-play {
+    &:before {
+        content: $br-icon-play;
+    }
+}
+
+.br-icon-solexan {
+    &:before {
+        content: $br-icon-solexan;
+    }
+}
+
+.br-icon-steering-wheel {
+    &:before {
+        content: $br-icon-steering-wheel;
+    }
+}
+
+.br-icon-tel {
+    &:before {
+        content: $br-icon-tel;
+    }
+}
+
+.br-icon-thumbnail-view-active {
+    &:before {
+        content: $br-icon-thumbnail-view-active;
+    }
+}
+
+.br-icon-tours {
+    &:before {
+        content: $br-icon-tours;
+    }
+}
+
+.br-icon-Worldwide-Coverage {
+    &:before {
+        content: $br-icon-Worldwide-Coverage;
+    }
+}
